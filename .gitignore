@@ -1,0 +1,41 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+**/application-local.yml
+**/application-*.local.yml
+
+# Dependencies and build output
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/target/
+**/.turbo/
+**/.eslintcache
+**/.stylelintcache
+**/stats.html
+
+# Runtime data and logs
+*.log
+logs/
+**/logs/
+**/tmp/
+**/.tmp/
+volumes/
+uploads/
+**/uploads/
+.history
+
+# Local IDE and OS files
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Backup files
+*.bak
+*.orig
+*.rej
